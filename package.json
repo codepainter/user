@@ -1,0 +1,35 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "user",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -l info -P app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codepainter/user.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codepainter/user/issues"
+  },
+  "homepage": "https://github.com/codepainter/user#readme",
+  "dependencies": {
+    "fastify": "^2.0.0",
+    "fastify-plugin": "^1.5.0",
+    "fastify-autoload": "^1.0.0",
+    "fastify-cli": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3",
+    "tap": "^12.5.3"
+  }
+}
